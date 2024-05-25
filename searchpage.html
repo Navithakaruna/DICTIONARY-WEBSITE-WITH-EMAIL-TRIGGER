@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* Header */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
         *
         {
@@ -71,10 +70,7 @@ nav {
 }
 
 /* Styles for Other Sections (About Us, Profile, Contact Us) */
-#about, #profile, #contact {
-    padding: 40px;
-    /* Other section styles go here */
-}
+
 
 
         /* Styling for the animation */
@@ -89,35 +85,6 @@ nav {
             background-position: center center;
             z-index: 1; /* Place the animation above the video */
         }
-
-        .main-title {
-            position: absolute;
-            margin: 0;
-            padding: 0;
-            color: #f9f1e9;
-            text-align: center;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate3d(-50%,-50%,0);
-            transform: translate3d(-50%,-50%,0);
-        }
-
-        .demo-1 .main-title {
-            text-transform: uppercase;
-            font-size: 4.2em;
-            letter-spacing: 0.1em;
-        }
-
-        .main-title .thin {
-            font-weight: 200;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .demo-1 .main-title {
-                font-size: 3em;
-            }
-        }
-
         .hero {
             width: 100%;
             height: 100vh;
@@ -143,21 +110,14 @@ nav {
                 height:auto;
             }
         }
-        .logo {
-    position: absolute;
-    top: -20px; /* Adjust the top distance as needed */
-    left: 1px; /* Adjust the left distance as needed */
-    z-index: 3; /* Ensure the logo appears over the video and the navigation */
-    width: 200px; /* Same width as navigation items */
-    height: 200px; /* Same height as navigation items */
-}
+       
 
         nav {
             position: absolute;
             top: 48px;
             right: 20px;
-            width: auto; /* Adjust the width as needed */
-            background-color: transparent; /* Remove background color */
+            width: auto; 
+            background-color: transparent; 
             border-radius: 8px;
             font-size: 0;
             z-index: 2; /* Ensure the nav bar appears over the video */
@@ -212,25 +172,25 @@ nav {
             background-color: #1abc9c;
         }
 
-        nav .start-about, a:nth-child(2):hover~.animation {
+        nav .start-word, a:nth-child(2):hover~.animation {
             width: 110px;
             left: 100px;
             background-color: #e74c3c;
         }
 
-        nav .start-blog, a:nth-child(3):hover~.animation {
+        nav .start-search, a:nth-child(3):hover~.animation {
             width: 100px;
             left: 210px;
             background-color: #3498db;
         }
 
-        nav .start-portefolio, a:nth-child(4):hover~.animation {
+        nav .start-translator, a:nth-child(4):hover~.animation {
             width: 160px;
             left: 310px;
             background-color: #9b59b6;
         }
 
-        nav .start-contact, a:nth-child(5):hover~.animation {
+        nav .start-login/register, a:nth-child(5):hover~.animation {
             width: 120px;
             left: 470px;
             background-color: #e67e22;
@@ -276,12 +236,7 @@ nav {
             padding: 5px;
             margin: auto;
         }
-
-        span {
-            color: #2BD6B4;
-        }
-
-        .content{
+ .content{
   text-align: center;
 }
 .overlay {
@@ -303,8 +258,6 @@ nav {
     text-align: center;
     color: white;
 }
-
-
 
  @keyframes animate{
     0%,10%,100%
@@ -339,6 +292,10 @@ nav {
             <a href="translator.html">Translator</a>
             <a href="login.php">Login/Register</a>
             <div class="animation start-home"></div>
+            <div class="animation start-word"></div>
+            <div class="animation start-search"></div>
+            <div class="animation start-translator"></div>
+            <div class="animation start-login/regsiter"></div>
         </nav>
         
         <div class="hero">
