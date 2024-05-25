@@ -319,11 +319,8 @@ body {
     button:hover {
       background: rgba(255, 255, 255, 0.3);
     }
-    }
+    
 
-    button:hover {
-      background: rgba(255, 255, 255, 0.3);
-    }
 
     input {
       padding: 10px;
