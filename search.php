@@ -8,9 +8,6 @@
     * {
     box-sizing: border-box;
 }
-:root {
-  --glow-color: hsl(186 100% 69%);
-}
 *,
 *::before,
 *::after {
@@ -20,7 +17,7 @@
 body {
             margin: 0;
             padding: 0;
-            height: 100vh; /* Set the height of the body to full viewport height */
+            height: 100vh; 
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -53,8 +50,7 @@ body {
 
   display: block;
   grid-area: search;
-  -webkit-appearance: none;
-  appearance: none;
+ appearance: none;
   width:100%;
   height: 100%;
   background: none;
