@@ -178,7 +178,7 @@ body {
     transform: translate(100%, 50%) rotate(75deg);
 }
 
-.burst * {}
+
 
 @keyframes particle-fade {
     0%, 100% { opacity: 0 }
