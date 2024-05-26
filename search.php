@@ -238,20 +238,7 @@ body {
     y2: 44;
     stroke-width: 3;
 }
-
-
-
-    h1 {
-      background: rgba(255, 255, 255, 0.2);
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      backdrop-filter: blur(10px);
-    }
-
-    #resultContainer {
+#resultContainer {
     background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
     padding: 0px; /* Add padding to create space between text and border */
     margin: auto; /* Center horizontally */
