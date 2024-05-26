@@ -259,28 +259,7 @@ body {
       margin-bottom: 10px;
     }
 
-    h2 {
-      background-color: #333;
-      color: #fff;
-      padding: 5px;
-      border-radius: 5px;
-      margin-top: 15px;
-    }
-
-    h3 {
-      background-color: #444;
-      color: #fff;
-      padding: 5px;
-      border-radius: 5px;
-      margin-top: 10px;
-    }
-
-    .white-box {
-      background-color: #fff;
-      padding: 10px;
-      border-radius: 5px;
-      margin-top: 10px;
-    }
+    
 
     button {
       background: rgba(255, 255, 255, 0.2);
