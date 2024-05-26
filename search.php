@@ -281,7 +281,7 @@ body {
       transition: background-color 0.3s;
       backdrop-filter: blur(5px);
     }
-
+    }
     button:hover {
       background: rgba(255, 255, 255, 0.3);
     }
